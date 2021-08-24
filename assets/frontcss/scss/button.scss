@@ -1,0 +1,65 @@
+.btn,
+.btn:focus,
+.btn:active{ 
+  background:none;
+  outline:none; 
+} 
+ 
+.btn-search{
+	display: inline-block;
+	background: #fff;
+	border: none;
+	color: #333;
+	cursor: pointer;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 60px;
+	&:focus{
+		margin: 0px;
+		outline: 0;
+	}
+	&:hover{
+		color: $primary;
+	}
+}
+
+.btn{
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.btn-sm{
+	padding: 8px 15px;
+	border-radius: 5px;
+	font-weight: 600;
+	line-height: 15px;
+}
+
+.btn-block{
+	width: 100%;
+	display: block;
+}
+
+.btn-primary{
+	border: 2px solid $primary;
+	background-color: $primary;
+	color: #fff;
+	&:hover, &:focus{
+		color: #fff;
+		background-color: $primary-hover;
+		border-color: $primary-hover;
+	}
+}
+.btn-primary-inline{
+	border: 2px solid $primary;
+	color: $primary;
+	&:hover{
+		color: #fff;
+		background-color: $primary;
+	}
+}
